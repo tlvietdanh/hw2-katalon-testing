@@ -41,6 +41,7 @@ else {
 }
 
 
+
 WebUI.setText(findTestObject('Object Repository/Page_Create_New_Channel_Local/input_newChannelName'), name)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create_New_Channel_Local/textarea_(optional)_newChannelPurpose'), purpose)
@@ -49,18 +50,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Create_New_Channel_Local/te
 
 WebUI.click(findTestObject('Page_Create_New_Channel_Local/btn_submit'))
 
-if(name.toString().length() < 2) {
-	def errorMess = WebUI.getText(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_errorLabel'))
-	
-	WebUI.verifyEqual(errorMess.contains('Display name must have at least 2 characters.'), true)
-}
 
-if(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'), 2, FailureHandling.OPTIONAL) == true) {
-	def dupErr = WebUI.getText(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'));
-	WebUI.verifyEqual(dupErr.contains('A channel with that name already exists on the same team'), true)
-	WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/button_Cancel_Create_Channel'))
-}
+def errorMessDup = WebUI.getText(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'))
 
+WebUI.verifyEqual(errorMessDup.contains('A channel with that name already exists on the same team.'), true)
 
 @com.kms.katalon.core.annotation.TearDown
 def Teardown() {
