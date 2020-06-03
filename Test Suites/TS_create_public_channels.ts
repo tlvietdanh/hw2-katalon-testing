@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_create_public_channels</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>183394bd-4af2-4301-8488-ba10fb62d69d</testSuiteGuid>
+   <testCaseLink>
+      <guid>62f0a47c-c975-4582-859d-88e81b30545b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CreateChannel/Create_channel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9f40d2a1-8f2b-4a6c-b3c4-757ce8c7ff3e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Create_Channel_Test_Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78cdce3e-2dd4-496a-b18a-60cf0606e0ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fdf127ed-1beb-4fdc-a186-a206fff9db95</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf42eddc-e75a-4e0a-ae81-ce395206ea62</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ecfe582-9f00-4684-b1d4-625fde06cddf</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
