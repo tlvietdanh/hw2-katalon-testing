@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login_function</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7858710a-1c1b-40a9-a225-761d9c0e984e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24dbab14-591a-4854-bb0c-bebc5bde1ea9</id>
+      <masked>false</masked>
+      <name>var_user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5aba6ea9-86a5-4b77-94fa-a1fecde4d475</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>
