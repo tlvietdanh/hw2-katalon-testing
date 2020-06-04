@@ -14,7 +14,7 @@
       <guid>bfbc8f63-cf90-4e92-a86f-c84ec1598180</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateChannel/Create_channel</testCaseId>
+      <testCaseId>Test Cases/Channel/Create_channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9abdc7b2-8cdc-4a16-8a03-a365e741bbc6</id>
@@ -53,7 +53,7 @@
       <guid>7da5f992-47aa-4072-8653-3a71807e0a40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateChannel/Create_channel_error_header</testCaseId>
+      <testCaseId>Test Cases/Channel/Create_channel_error_header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b24876ad-f9ed-4dd1-b3c7-cdf9ed30bd2a</id>
@@ -92,7 +92,7 @@
       <guid>42f7b21c-fc96-4388-b726-445816a489f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateChannel/Create_channel_duplicated</testCaseId>
+      <testCaseId>Test Cases/Channel/Create_channel_duplicated</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c2c71d22-e6d6-442e-bea9-29336c7442e7</id>

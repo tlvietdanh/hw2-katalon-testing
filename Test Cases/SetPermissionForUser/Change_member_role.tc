@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change_member_role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8378a08-08c2-48c8-b355-21c722fb06b7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41ab9075-a3ad-4411-af10-6100f8e53a9d</id>
+      <masked>false</masked>
+      <name>target_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'menber'</defaultValue>
+      <description></description>
+      <id>3ec5bf4c-9216-4b0a-8be6-ce2a03ab724d</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+</TestCaseEntity>

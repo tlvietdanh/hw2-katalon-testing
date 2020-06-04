@@ -16,20 +16,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+@com.kms.katalon.core.annotation.SetUp
+def Setup() {
+	WebUI.openBrowser('http://192.168.1.10:8065/login')
+}
+
 'Call login functions'
 WebUI.callTestCase(findTestCase('Test Cases/Login/login_function'), [('var_user') : 'tlvietdanh@gmail.com', ('var_password') : '13101998'], 
     FailureHandling.STOP_ON_FAILURE)
 
 // create a team if not existed
+
 // WebUI.navigateToUrl('https://hw02-mattermast-webapp-master.herokuapp.com/asdasd/channels/town-square')
 WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/btn_create_channel_local'))
 
+
+
 'Checking create private channel or public channel'
-if (is_private.toString().equals('0')) {
-    WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/rdb_private_channel'))
-} else {
-    WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/rdb_public_channel'))
+if(is_private.toString().equals("0")) {
+	WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/rdb_private_channel'))
 }
+else {
+	WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/rdb_public_channel'))
+}
+
+
 
 WebUI.setText(findTestObject('Object Repository/Page_Create_New_Channel_Local/input_newChannelName'), name)
 
@@ -39,22 +50,14 @@ WebUI.setText(findTestObject('Object Repository/Page_Create_New_Channel_Local/te
 
 WebUI.click(findTestObject('Page_Create_New_Channel_Local/btn_submit'))
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'), 2, 
-    FailureHandling.OPTIONAL) == true) {
-    def dupErr = WebUI.getText(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'))
 
-    WebUI.verifyEqual(dupErr.contains('A channel with that name already exists on the same team'), true)
+def errorMessDup = WebUI.getText(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'))
 
-    WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/button_Cancel_Create_Channel'))
-}
-
-@com.kms.katalon.core.annotation.SetUp
-def Setup() {
-    WebUI.openBrowser('http://192.168.56.103:8065/login')
-}
+WebUI.verifyEqual(errorMessDup.contains('A channel with that name already exists on the same team.'), true)
 
 @com.kms.katalon.core.annotation.TearDown
 def Teardown() {
-    WebUI.closeBrowser()
+	WebUI.closeBrowser()
 }
+
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change_channel_url_error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7047e7e5-32de-4a9c-aaec-2469e1f8ae16</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12cc27f1-897f-4ee6-8328-863c52f44ab2</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76db1cd6-b223-4d96-84d7-325d14c54cab</id>
+      <masked>false</masked>
+      <name>channel_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccfd5152-7921-410b-a501-bda3aeab669c</id>
+      <masked>false</masked>
+      <name>newChannelUrl</name>
+   </variable>
+</TestCaseEntity>

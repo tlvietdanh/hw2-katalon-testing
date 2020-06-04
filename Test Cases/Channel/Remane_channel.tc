@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remane_channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e77089b-73b1-4581-aced-21e159fa115a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d8a0932-7207-4cff-9cec-68622032aeb7</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa0e52c4-7cd9-4473-b696-d3fd9ed9348e</id>
+      <masked>false</masked>
+      <name>channel_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e1a9105-2d73-4c99-bd64-81f7e4f285ae</id>
+      <masked>false</masked>
+      <name>newName</name>
+   </variable>
+</TestCaseEntity>
