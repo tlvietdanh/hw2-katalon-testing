@@ -22,6 +22,12 @@ def Setup() {
 }
 
 'Call login functions'
-WebUI.callTestCase(findTestCase('Test Cases/Login/login_function'), [('var_user') : 'baophamthien241098', ('var_password') : 'asbcd11782'],
+WebUI.callTestCase(findTestCase('Test Cases/Login/login_function'), [('var_user') : 'cuong934073@gmail.com', ('var_password') : 'cuong123'],
 	FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/Page_Mattermost_login/Page_Town Square - Home page/svg-mainmenu'))
+
+@com.kms.katalon.core.annotation.TearDown
+def Teardown() {
+	WebUI.closeBrowser()
+}
