@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase("Test Cases/TC_API/Login_SaveCookie"),null)
 respone = WS.sendRequest(findTestObject('API/ViewMembers', [('url') : GlobalVariable.BaseUrl, ('Cookie') : GlobalVariable.CloudCookies
             , ('channelID') : ChannelID]))
 
