@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Edit_Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a22b37d-8cc0-4523-b55b-efeaa84d74c8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67ff54f5-43f4-405b-a341-f7819587a4bf</id>
+      <masked>false</masked>
+      <name>var_newemail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bfa3222c-ca4e-4d15-a84a-e8ce98d64842</id>
+      <masked>false</masked>
+      <name>var_confirmemail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5b097c2-5c5a-409f-a859-552b2cb7b2f2</id>
+      <masked>false</masked>
+      <name>var_currentpassword</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7134428-4c75-41fe-af8a-7ebc25643f56</id>
+      <masked>false</masked>
+      <name>var_statusExpectedResult</name>
+   </variable>
+</TestCaseEntity>

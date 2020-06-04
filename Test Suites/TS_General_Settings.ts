@@ -82,7 +82,7 @@
    <testCaseLink>
       <guid>836db769-1106-446a-824b-05928ddda21a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Edit General Settings/TC_Edit_Position</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
@@ -98,6 +98,45 @@
          <type>DATA_COLUMN</type>
          <value>position</value>
          <variableId>0b8459e4-538a-427e-a492-e51bf4f3ff24</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b80934fa-0ed3-4855-a4b4-c0f34cf994c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit General Settings/TC_Edit_Email</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/General_Settings_data/Email_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newemail</value>
+         <variableId>67ff54f5-43f4-405b-a341-f7819587a4bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmemail</value>
+         <variableId>bfa3222c-ca4e-4d15-a84a-e8ce98d64842</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currentpassword</value>
+         <variableId>d5b097c2-5c5a-409f-a859-552b2cb7b2f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusExpectedResult</value>
+         <variableId>c7134428-4c75-41fe-af8a-7ebc25643f56</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

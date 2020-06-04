@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Email_data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>5e173c5f-4610-43ea-b6ab-79f2049795f0</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>null cuong%40gmail.com 123 new+email+is+empty</data>
+   <data>cuong%40gmail.com null 123 confirm+email+is+not+correct</data>
+   <data>cuong%40gmail.com cuong 123 confirm+email+is+not+correct</data>
+   <data>cuong%40gmail.com cuong%40gmail.com 123 current+password+is+empty</data>
+   <data>cuong%40gmail.com cuong%40gmail.com 123 current+password+is+not+correct</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>newemail</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>confirmemail</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>currentpassword</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>statusExpectedResult</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
