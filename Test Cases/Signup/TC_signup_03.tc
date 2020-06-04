@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>password is not correct</description>
+   <name>TC_signup_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49d90836-7ff0-4d25-9098-253cf9934b6e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>296bf4b9-927f-4396-8425-c715826dc3fc</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f639039-c8e2-4512-b6e1-cc24b81fc5fa</id>
+      <masked>false</masked>
+      <name>var_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29035ca4-f029-4282-8666-ca2102d383de</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cf99b82-47fd-4f89-859b-94bc9797940c</id>
+      <masked>false</masked>
+      <name>var_statusExpectedResult</name>
+   </variable>
+</TestCaseEntity>
