@@ -124,4 +124,46 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_API/GetUsers</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>28728467-83b0-472a-8e15-8cb6a36fece1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/ViewMembers</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>389386c0-ef4d-46d0-8fc6-0186e061bd7c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataApi/ViewMembers</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>389386c0-ef4d-46d0-8fc6-0186e061bd7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ChannelID</value>
+         <variableId>f21c433a-eb54-4e1e-97a6-6309cc1a2b7a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0cb95685-6ccf-415e-abe4-24d706907ab3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/ViewChannels</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e004919d-78df-4a7a-b484-34a44402b0a7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataApi/ViewMembers</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e004919d-78df-4a7a-b484-34a44402b0a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ChannelID</value>
+         <variableId>d1488c65-cd9d-49e0-a2e3-adab39947f7b</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
