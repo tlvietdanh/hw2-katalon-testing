@@ -40,9 +40,7 @@ for (Cookie currentCookie : cookieCollection) {
 
 }
 // print the cookies for debugging
-println(cookieString)
 // set the cookies to our global variable. This is the most important bit!
 GlobalVariable.CloudCookies = cookieString
 // done! close the browser
-WebUI.closeBrowser()
 WebUI.closeBrowser()

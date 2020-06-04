@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetStatusPlugin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d997a3aa-ef6b-4c5d-81c8-cef272427b12</testCaseGuid>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description></description>
+      <id>79c4976a-e3cd-40bc-a9c3-14247c698d11</id>
+      <masked>false</masked>
+      <name>current_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description></description>
+      <id>e68acffa-25e3-4ce5-84f6-09858d7e76f4</id>
+      <masked>false</masked>
+      <name>new_password</name>
+   </variable>
+</TestCaseEntity>
