@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Login</name>
+   <name>Forgot pass</name>
    <tag></tag>
-   <elementGuidId>67d41844-bad5-4947-9622-8d506a6d9165</elementGuidId>
+   <elementGuidId>7868b93e-4b64-45c3-9ad1-81aec852e64f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;login_id\&quot;:\&quot;baophamthien241098@gmail.com\&quot;,\&quot;password\&quot;:\&quot;asbcd11782\&quot;}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-   </httpHeaderProperties>
    <katalonVersion>7.5.2</katalonVersion>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/api/v4/users/login</restUrl>
+   <restUrl>${url}/api/v4/users/password/reset/send</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -35,7 +28,7 @@
    <variables>
       <defaultValue>GlobalVariable.BaseUrl</defaultValue>
       <description></description>
-      <id>45ff5008-52fe-4df9-9b6d-54ba18bf63dc</id>
+      <id>018896e2-77c3-416a-a355-9ff8d34c698d</id>
       <masked>false</masked>
       <name>url</name>
    </variables>

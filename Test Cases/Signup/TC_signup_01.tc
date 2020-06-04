@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>invalid email</description>
+   <name>TC_signup_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b04f3818-b7ce-4fc5-92c1-8d7d8da9e12e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ce638306-5192-4e8b-955a-5f79ff3e2697</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e5b0a335-457d-42b0-8093-54c3dada99fc</id>
+      <masked>false</masked>
+      <name>var_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3198a176-c36e-4649-a3c8-871b5f1f7025</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5f505eb-0dff-49ea-99ae-b8333001729a</id>
+      <masked>false</masked>
+      <name>var_statusExpectedResult</name>
+   </variable>
+</TestCaseEntity>

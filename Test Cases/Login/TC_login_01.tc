@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user is empty</description>
+   <name>TC_login_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd7d1bca-e958-4a74-9e5c-ef58fe94cb52</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d52eb655-b3dd-4000-9520-44aa81e8127f</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cab29259-a1fc-4212-9894-53fa8b8abde8</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>
