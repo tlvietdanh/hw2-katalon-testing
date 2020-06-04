@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_User_Permission/2_system_cont
 
 WebUI.click(findTestObject('Object Repository/Page_User_Permission/users_tabs'))
 
-WebUI.setText(findTestObject('Object Repository/Page_User_Permission/input_searchUsers'), target_email_temp);
+WebUI.setText(findTestObject('Object Repository/Page_User_Permission/input_searchUsers'), target_email);
 
 if(!target_email_temp.toString().equals('') && WebUI.verifyElementPresent(findTestObject('Object Repository/Page_User_Permission/span_Email'), 2, FailureHandling.OPTIONAL)) {
 	def email = WebUI.getText(findTestObject('Object Repository/Page_User_Permission/span_Email'))

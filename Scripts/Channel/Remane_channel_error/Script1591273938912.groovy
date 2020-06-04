@@ -42,9 +42,6 @@ def Setup() {
 'Call login functions'
 WebUI.callTestCase(findTestCase('Test Cases/Login/login_function'), [('var_user') : 'tlvietdanh@gmail.com', ('var_password') : '13101998'],
 	FailureHandling.STOP_ON_FAILURE)
-def oldName = 'Town Square';
-def channel_url = 'town-square';
-def newName = 'a';
 
 
 

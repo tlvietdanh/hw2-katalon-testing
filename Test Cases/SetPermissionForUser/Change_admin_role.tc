@@ -12,11 +12,4 @@
       <masked>false</masked>
       <name>target_email</name>
    </variable>
-   <variable>
-      <defaultValue>'menber'</defaultValue>
-      <description></description>
-      <id>b8268cba-5b8a-4dfc-b8a5-b961b8c92fd9</id>
-      <masked>false</masked>
-      <name>role</name>
-   </variable>
 </TestCaseEntity>

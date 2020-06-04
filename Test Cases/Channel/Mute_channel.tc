@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mute_channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91d2e2ef-d338-4e2f-a0e8-56cd5a280447</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a3de790-57a4-4b9a-99f8-88ec41bd0b3b</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>100d9c44-de97-4b0f-a1d6-579f55cb94b3</id>
+      <masked>false</masked>
+      <name>channel_url</name>
+   </variable>
+</TestCaseEntity>
