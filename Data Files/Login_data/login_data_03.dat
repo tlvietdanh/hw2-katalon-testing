@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>valid email or username and/or password</description>
+   <name>login_data_03</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>a8a3ff65-7b12-4b7d-95a8-064dcce13324</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>danh matkhausai</data>
+   <data>cuong matkhaudung</data>
+   <data>bao kocomatkhau</data>
+   <data>hien caigilamatkhau</data>
+   <data>baophamthien241098 matkhau</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>user</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
