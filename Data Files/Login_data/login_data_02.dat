@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description>user is empty</description>
-   <name>login_data_01</name>
+   <description>password is empty</description>
+   <name>login_data_02</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>f4e839f0-f9a1-4cf1-aa95-8827f2d39cbb</dataFileGUID>
+   <dataFileGUID>1478c95e-8751-4945-a5ef-72010a0f1da3</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null matkhausai</data>
-   <data>null matkhaudung</data>
-   <data>null testcase</data>
-   <data>null nhincaigi</data>
-   <data>null asbcd11782</data>
+   <data>cuong null</data>
+   <data>bao null</data>
+   <data>hien null</data>
+   <data>danh null</data>
+   <data>baophamthien241098 null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>user</name>

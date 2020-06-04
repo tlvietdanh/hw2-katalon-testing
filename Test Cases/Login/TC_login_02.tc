@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>user is empty</description>
-   <name>TC_login_01</name>
+   <description>password is empty</description>
+   <name>TC_login_02</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fd7d1bca-e958-4a74-9e5c-ef58fe94cb52</testCaseGuid>
+   <testCaseGuid>b7309a16-d4ad-48c4-bae8-19bda09e2f76</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d52eb655-b3dd-4000-9520-44aa81e8127f</id>
+      <id>e24c9c3a-c0d6-4852-a4e6-6e8287cd47f1</id>
       <masked>false</masked>
       <name>var_email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>cab29259-a1fc-4212-9894-53fa8b8abde8</id>
+      <id>16246bd6-a162-4d2d-ac0f-9bd9ec7bfdd2</id>
       <masked>false</masked>
       <name>var_password</name>
    </variable>
