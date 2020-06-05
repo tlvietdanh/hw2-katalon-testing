@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View_Info_channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a73354f5-41c0-445b-afae-c9f78945c958</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>40b8ed97-5b14-477a-83a1-b0496acd033d</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>95c6906f-0d94-4ff4-84f1-60604a56419b</id>
+      <masked>false</masked>
+      <name>channel_url</name>
+   </variable>
+</TestCaseEntity>
