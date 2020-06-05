@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invite_by_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcef8e59-56b4-4636-9bab-666cccd4a6d8</testCaseGuid>
+   <variable>
+      <defaultValue>'https://hw02-mattermast-webapp-master.herokuapp.com/login'</defaultValue>
+      <description></description>
+      <id>41d02f67-1e25-4dbf-a91f-86fcf63ffeec</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
