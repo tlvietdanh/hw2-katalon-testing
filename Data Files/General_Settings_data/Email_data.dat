@@ -11,8 +11,8 @@
    <data>null cuong%40gmail.com 123 new+email+is+empty</data>
    <data>cuong%40gmail.com null 123 confirm+email+is+not+correct</data>
    <data>cuong%40gmail.com cuong 123 confirm+email+is+not+correct</data>
-   <data>cuong%40gmail.com cuong%40gmail.com 123 current+password+is+empty</data>
-   <data>cuong%40gmail.com cuong%40gmail.com 123 current+password+is+not+correct</data>
+   <data>cuong%40gmail.com cuong%40gmail.com null current+password+is+empty</data>
+   <data>danh%40gmail.com danh%40gmail.com null current+password+is+empty</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>newemail</name>
