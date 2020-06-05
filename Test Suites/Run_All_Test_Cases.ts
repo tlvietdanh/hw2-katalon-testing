@@ -857,6 +857,78 @@
       <testCaseId>Test Cases/Feature_Test/TC_test_chat</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>0fc1f812-9cdf-481d-b193-cf7fe5f0e999</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Invite_member/Find_by_email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88a134cf-286a-4329-9a12-08f442019101</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ef8daba-8299-49c5-b516-a781ec6dfa5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Invite_member/Find_exist_member</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3332ca98-7216-4951-8ef1-ce4c4e00b3e4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a4062961-b7b6-4f96-9058-c5a4f8c7b6fc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Invite_member/Find_unexist_member</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5d9e441-c58b-4d42-a0b7-3d947aa1438c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03a4c31f-8029-40ee-8392-b3a6a8e561ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Invite_member/Invite_by_email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41d02f67-1e25-4dbf-a91f-86fcf63ffeec</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d054b6f-a7a3-49f1-9218-f2b59936ce2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/ViewWrongChannels</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>599b2bfb-f76e-441e-873e-671093b430f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/SystemWrongLog</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40bf3733-eacf-4eab-af2f-6945c4decd8e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Invite_member/Invite_exist_member</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec337039-c466-42c4-abbc-cc3cbfa79a73</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>77a72b48-79b5-44d6-bac6-43df015ca13d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -873,6 +945,36 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Feature_Test/TC_test_view_channel_members</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c2daeae-0224-4a6e-96fc-d029db507e11</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SetPermissionForUser/Change_admin_role</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4ff4416-429c-4a2e-b80d-e29144c498d7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e715b308-981d-4100-a829-d9f9e0982502</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SetPermissionForUser/Change_member_role</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41ab9075-a3ad-4411-af10-6100f8e53a9d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7828aebc-6cdf-41db-b33f-0005241bb8b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/GetName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8e6b413c-fa8a-4d3a-857a-2a607514aa55</guid>
