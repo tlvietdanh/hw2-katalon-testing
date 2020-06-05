@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hw02-mattermast-webapp-master.herokuapp.com/login')
+WebUI.navigateToUrl(url)
 
 WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (3)'), 'hien')
 
@@ -32,11 +32,10 @@ WebUI.click(findTestObject('Find_exist_member/span_View Members (1)'))
 
 String[] data = ['banhbeo', 'monter']
 
-for(int i=0;i<data.length;i++){
+for (int i = 0; i < data.length; i++) {
+    WebUI.setText(findTestObject('Find_exist_member/input_Search users_searchUsersInput (1)'), data[i])
 
-WebUI.setText(findTestObject('Find_exist_member/input_Search users_searchUsersInput (1)'), data[i])
-
-WebUI.click(findTestObject('Find_exist_member/span_No users found'))
+    WebUI.click(findTestObject('Find_exist_member/span_No users found'))
 }
 
 WebUI.closeBrowser()
