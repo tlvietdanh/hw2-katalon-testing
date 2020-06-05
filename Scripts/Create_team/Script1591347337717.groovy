@@ -20,11 +20,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5 (9)'), 'hien')
+'Call login functions'
+WebUI.callTestCase(findTestCase('Test Cases/Login/login_function'), [('var_user') : 'tlvietdanh@gmail.com', ('var_password') : '13101998'],
+	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (9)'), 'rA93q8IMOz5QsFH+BfUENA==')
-
-WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733 (9)'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Page_Town Square - asdasd Mattermost/svg (2)'))
 
@@ -32,15 +31,18 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - asdasd Mattermo
 
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - asdasd Mattermost/input_Team Name_teamNameInput'), team_name)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - asdasd Mattermost/input_Team Name_teamNameInput'), Keys.chord(
-        Keys.ENTER))
+//WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - asdasd Mattermost/input_Team Name_teamNameInput'), Keys.chord(
+//        Keys.ENTER))
+//
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - asdasd Mattermost/input_Team Name_teamNameInput'), 'button')
+//WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - asdasd Mattermost/input_httpshw02-mattermast-webapp-masterher_2efa41'), 
+//    Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - asdasd Mattermost/input_httpshw02-mattermast-webapp-masterher_2efa41'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - test Mattermost/button_Next'));
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - button Mattermost/div_bu'))
+if(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Town Square - button Mattermost/div_bu'), 1, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Object Repository/Page_Town Square - button Mattermost/div_bu'))
+}
+
 
 WebUI.closeBrowser()
-

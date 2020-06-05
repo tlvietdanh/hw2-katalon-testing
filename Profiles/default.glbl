@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'baophamthien241098@gmail.com'</initValue>
+      <initValue>'tlvietdanh@gmail.com'</initValue>
       <name>loginId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123123'</initValue>
+      <initValue>'13101998'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://hw02-mattermast-webapp-master.herokuapp.com'</initValue>
+      <initValue>'http://192.168.1.10:8065'</initValue>
       <name>BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'odyfujmt9jyftyrd9cgqx1z9ue'</initValue>
+      <initValue>'anuadz4nqinqjmyoehiqhi6aio'</initValue>
       <name>ID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

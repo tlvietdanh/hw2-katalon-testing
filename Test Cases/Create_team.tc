@@ -13,7 +13,7 @@
       <name>team_name</name>
    </variable>
    <variable>
-      <defaultValue>'https://hw02-mattermast-webapp-master.herokuapp.com/login'</defaultValue>
+      <defaultValue>'http://192.168.1.10:8065/login'</defaultValue>
       <description></description>
       <id>10a6acdb-9c5e-490d-87f0-0f39fcf00fc5</id>
       <masked>false</masked>

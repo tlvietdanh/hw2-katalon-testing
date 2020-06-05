@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>ec145450-5e06-4fe2-9214-5206ca159ec5</dataFileGUID>
-   <dataSourceUrl>C:\Users\black\Desktop\CSV\rename_channel_url.csv</dataSourceUrl>
+   <dataSourceUrl>D:\katalon\hw2-katalon-testing\CSV_DATA\rename_channel_url_error.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -21,10 +21,7 @@ import groovy.json.JsonBuilder
 WebUI.callTestCase(findTestCase("Test Cases/TC_API/Login_SaveCookie"),null)
 def request = findTestObject('API/GetStatusPlugin', [('url') : GlobalVariable.BaseUrl, ('Cookie') : GlobalVariable.CloudCookies])
 def json = new JsonBuilder()
-def root = json current_password: current_password, new_password: new_password
-println(json.toString())
 try{
- request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "text/plain"))	
  response = WS.sendRequest(request)
  println(response)
  WS.verifyResponseStatusCode(response,200)

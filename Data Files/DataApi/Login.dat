@@ -8,20 +8,16 @@
    <dataFileGUID>2b0e4517-fc3d-40e3-a089-eac37ddf3d6f</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null 123123</data>
-   <data>baophamthien241098%40gmail.com 123123</data>
-   <data>null null</data>
-   <data>baophamthien%40%21%21%21%23%23 32123</data>
-   <data>baophamthien%40%40gmail.com 23123%40%40%40</data>
+   <data>tlvietdanh%40gmail.com 13101998</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>5</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>pass</name>
-      <size>5</size>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
