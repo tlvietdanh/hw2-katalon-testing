@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ViewMembers</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4547fd56-92f5-4448-a411-3f9e922df401</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>null</data>
+   <data>osh9j8rzk3859xe4ajhgfy3pkh</data>
+   <data>osh9j8rzk3%40%40%40%21</data>
+   <data>asdagggaaa</data>
+   <data>__________________</data>
+   <data>xk8r4ndcsir5teei56918o7inc</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>ChannelID</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

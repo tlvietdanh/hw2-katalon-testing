@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ViewChannels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45b0f53a-ebce-4928-ba77-fdd72535e408</testCaseGuid>
+   <variable>
+      <defaultValue>'xk8r4ndcsir5teei56918o7inc'</defaultValue>
+      <description></description>
+      <id>d1488c65-cd9d-49e0-a2e3-adab39947f7b</id>
+      <masked>false</masked>
+      <name>ChannelID</name>
+   </variable>
+</TestCaseEntity>

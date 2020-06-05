@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find_by_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d08e6eb-671d-4709-9ff0-c1b9fb9c8f36</testCaseGuid>
+   <variable>
+      <defaultValue>'https://hw02-mattermast-webapp-master.herokuapp.com/login'</defaultValue>
+      <description></description>
+      <id>88a134cf-286a-4329-9a12-08f442019101</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

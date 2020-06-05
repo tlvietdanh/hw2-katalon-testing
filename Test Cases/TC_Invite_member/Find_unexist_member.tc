@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find_unexist_member</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ab56728-0f51-4ef1-bf32-92a10d19a052</testCaseGuid>
+   <variable>
+      <defaultValue>'https://hw02-mattermast-webapp-master.herokuapp.com/login'</defaultValue>
+      <description></description>
+      <id>a5d9e441-c58b-4d42-a0b7-3d947aa1438c</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

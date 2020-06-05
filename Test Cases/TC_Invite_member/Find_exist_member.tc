@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find_exist_member</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a004974a-05d4-4b27-9edc-8dc6ce84a67f</testCaseGuid>
+   <variable>
+      <defaultValue>'https://hw02-mattermast-webapp-master.herokuapp.com/login'</defaultValue>
+      <description></description>
+      <id>3332ca98-7216-4951-8ef1-ce4c4e00b3e4</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
