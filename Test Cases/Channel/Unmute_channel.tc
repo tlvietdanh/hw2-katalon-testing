@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Unmute_channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41c0e318-0d54-4c05-85d7-7eb715aa0581</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9928e8b7-e403-4918-a489-5a9018029992</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57babdd7-0b3a-4652-b683-57ba2df0f888</id>
+      <masked>false</masked>
+      <name>channel_url</name>
+   </variable>
+</TestCaseEntity>
