@@ -24,4 +24,9 @@
       <initValue>'s'</initValue>
       <name>CloudCookies</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'odyfujmt9jyftyrd9cgqx1z9ue'</initValue>
+      <name>ID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>b42a0655-31ab-4305-a9b0-5f0a74e94b41</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_API/Sign Up</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -46,7 +46,7 @@
    <testCaseLink>
       <guid>63965bb4-4cbc-40e7-a1dc-e5a22356cfa4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_API/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -69,5 +69,59 @@
          <value></value>
          <variableId>3d273042-3003-4ab8-83d8-391b02e442a9</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f7b1a273-c7ce-40d7-9124-2a3e0d255619</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/Login_SaveCookie</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55a6d4ad-62ca-40a1-8ddb-30a8017d4050</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13d1c761-4306-4d06-b725-29f3d8ce98a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b1736cab-eb0e-438c-b5eb-eae9812d25e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/SystemLog</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>078d5cc0-da5b-4e1d-8a92-43aac8348804</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/Statistics</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d3dcb80-0fa1-4d28-818f-61a4016f44f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/GetStatusPlugin</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>79c4976a-e3cd-40bc-a9c3-14247c698d11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e68acffa-25e3-4ce5-84f6-09858d7e76f4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ad049491-6d36-4027-92a8-b6bc30a6d3ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/GetUsers</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
