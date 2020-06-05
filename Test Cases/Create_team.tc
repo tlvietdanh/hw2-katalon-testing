@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_team</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11cec6ca-b478-4d10-b079-964bcca860c0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a344e4e-558c-4b70-9bd7-de35f4665242</id>
+      <masked>false</masked>
+      <name>team_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://hw02-mattermast-webapp-master.herokuapp.com/login'</defaultValue>
+      <description></description>
+      <id>10a6acdb-9c5e-490d-87f0-0f39fcf00fc5</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
