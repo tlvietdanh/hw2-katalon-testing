@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_channel_duplicated</name>
+   <tag>channel</tag>
+   <comment></comment>
+   <testCaseGuid>a355323a-00c3-4b79-a8a4-c06add09dc90</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e7dbfd75-35ce-440a-a24f-e8289b09eecc</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be2009b5-c7c5-427e-8ae4-3b0a0b9a6432</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>92a2e125-2aae-467f-ba26-caa4f087b9cc</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>cec25b2c-4eef-448e-bfb8-a66ace00964c</id>
+      <masked>false</masked>
+      <name>is_private</name>
+   </variable>
+</TestCaseEntity>

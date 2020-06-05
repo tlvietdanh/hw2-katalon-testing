@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remane_channel_error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0862cc1-a70e-4919-acbf-7743c8f96c2f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1e632f8-85e0-40f9-961f-2d56e243c2e6</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49cfcdb3-6dcf-42e0-bc80-a39297e7aebd</id>
+      <masked>false</masked>
+      <name>channel_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26b41fa0-212b-4d28-851b-dab134bd0cf0</id>
+      <masked>false</masked>
+      <name>newName</name>
+   </variable>
+</TestCaseEntity>

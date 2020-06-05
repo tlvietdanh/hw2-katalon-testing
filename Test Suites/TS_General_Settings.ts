@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_General_Settings</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>0f4a9087-4ad9-4030-b323-3ff9495e6a6e</testSuiteGuid>
+   <testCaseLink>
+      <guid>ba102808-21a0-45b7-930f-492bd4238f4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Edit General Settings/TC_Edit_FullName</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>55b701f0-4fe6-4738-b9e2-a9d8f64f5fd1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/General_Settings_data/FullName_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>55b701f0-4fe6-4738-b9e2-a9d8f64f5fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
+         <variableId>431d3521-130f-4cb1-b7df-85bf46b5b05c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55b701f0-4fe6-4738-b9e2-a9d8f64f5fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>13298ec1-9354-49d1-820d-d04a61b0b5b7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc79b4f8-b95f-4b2e-9f6e-97c308539f19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Edit General Settings/TC_Edit_Username</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>3438083c-3c13-49da-8e76-8cdcecd3fc78</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/General_Settings_data/Username_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3438083c-3c13-49da-8e76-8cdcecd3fc78</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>6d6343ac-be73-443c-ae95-a552bf7147ec</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19c5b503-c20c-49bf-a314-eaaee3798726</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Edit General Settings/TC_Edit_Nickname</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>af8b446d-8625-4bff-9a47-60a4b7687752</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/General_Settings_data/Nickname_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>af8b446d-8625-4bff-9a47-60a4b7687752</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nickname</value>
+         <variableId>6fb07600-94ce-4c37-9235-bac6d2edd7cc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>836db769-1106-446a-824b-05928ddda21a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Edit General Settings/TC_Edit_Position</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>ea7dad85-f3af-417b-b975-9af8a96c6a30</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/General_Settings_data/Position_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ea7dad85-f3af-417b-b975-9af8a96c6a30</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>position</value>
+         <variableId>0b8459e4-538a-427e-a492-e51bf4f3ff24</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b80934fa-0ed3-4855-a4b4-c0f34cf994c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit General Settings/TC_Edit_Email</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/General_Settings_data/Email_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newemail</value>
+         <variableId>67ff54f5-43f4-405b-a341-f7819587a4bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmemail</value>
+         <variableId>bfa3222c-ca4e-4d15-a84a-e8ce98d64842</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currentpassword</value>
+         <variableId>d5b097c2-5c5a-409f-a859-552b2cb7b2f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>59ea80a6-3d6b-401c-aa36-6be0fbd8c28c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusExpectedResult</value>
+         <variableId>c7134428-4c75-41fe-af8a-7ebc25643f56</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

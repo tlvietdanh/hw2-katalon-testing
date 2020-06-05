@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Login</name>
+   <name>Sign Up</name>
    <tag></tag>
-   <elementGuidId>67d41844-bad5-4947-9622-8d506a6d9165</elementGuidId>
+   <elementGuidId>4c7f12f1-4266-4ba0-b8d2-2c8b63102312</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;login_id\&quot;:\&quot;baophamthien241098@gmail.com\&quot;,\&quot;password\&quot;:\&quot;asbcd11782\&quot;}&quot;,
+  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;asdasddda@gmail.com\&quot;,\&quot;username\&quot;:\&quot;baophamthien2dd\&quot;,\&quot;password\&quot;:\&quot;asbcd11782\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -24,7 +24,7 @@
    <katalonVersion>7.5.2</katalonVersion>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/api/v4/users/login</restUrl>
+   <restUrl>${url}/api/v4/users?iid=ww17o9s3nfnaxx9985sg33ofma</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -35,7 +35,7 @@
    <variables>
       <defaultValue>GlobalVariable.BaseUrl</defaultValue>
       <description></description>
-      <id>45ff5008-52fe-4df9-9b6d-54ba18bf63dc</id>
+      <id>79d03d35-51a3-4e2f-bd64-aaabfd1dce66</id>
       <masked>false</masked>
       <name>url</name>
    </variables>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ApiTest</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>2384f074-0f9b-4497-b6a1-0c6bf631856c</testSuiteGuid>
+   <testCaseLink>
+      <guid>b42a0655-31ab-4305-a9b0-5f0a74e94b41</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/Sign Up</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1566b358-768d-4aab-ab18-e7c29422ff51</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataApi/SignUp</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1566b358-768d-4aab-ab18-e7c29422ff51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>44833b66-347e-477d-8696-8eb7cc2ec48e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1566b358-768d-4aab-ab18-e7c29422ff51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>fc777c4c-896c-45a6-bba9-ad6e83ea6f06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1566b358-768d-4aab-ab18-e7c29422ff51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>cac34403-a58a-40b2-9e25-ae00241613fd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63965bb4-4cbc-40e7-a1dc-e5a22356cfa4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_API/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d71385b1-05ad-431d-8819-21b92dfa6218</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataApi/Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4556db9b-3cfc-46fd-9b7b-81f2a1364442</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d273042-3003-4ab8-83d8-391b02e442a9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

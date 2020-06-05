@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change_admin_role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f49398d2-dbc4-4564-9ba3-a317eb988a55</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4ff4416-429c-4a2e-b80d-e29144c498d7</id>
+      <masked>false</masked>
+      <name>target_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'menber'</defaultValue>
+      <description></description>
+      <id>b8268cba-5b8a-4dfc-b8a5-b961b8c92fd9</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+</TestCaseEntity>

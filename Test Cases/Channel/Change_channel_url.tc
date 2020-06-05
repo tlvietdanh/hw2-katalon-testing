@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change_channel_url</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23133734-e7d6-4d7c-bf28-75157d5d24d4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65c2d265-3e88-4da8-a3e0-0228e86b133b</id>
+      <masked>false</masked>
+      <name>newChannelUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1934cca9-141f-4092-b625-90a8aef1007b</id>
+      <masked>false</masked>
+      <name>channel_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf5fbd9c-c7bf-4bd6-a3ff-de4662eb4b12</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+</TestCaseEntity>

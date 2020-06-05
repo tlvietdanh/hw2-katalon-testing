@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_channel_error_header</name>
+   <tag>channel</tag>
+   <comment></comment>
+   <testCaseGuid>b2709495-950c-4e67-8360-4537a6978a30</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c92a6cd7-c038-4228-bbf9-45e7e610ded4</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db0b7881-b57b-47f6-9fdf-70c20dd0c1a2</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9fcf5c3d-646d-4137-8792-b851a5384bbe</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>7f97c566-cdd4-4084-8c62-f5efd9ddc375</id>
+      <masked>false</masked>
+      <name>is_private</name>
+   </variable>
+</TestCaseEntity>

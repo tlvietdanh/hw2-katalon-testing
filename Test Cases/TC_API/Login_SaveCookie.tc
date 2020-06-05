@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_SaveCookie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b50f0b08-c109-45b2-b409-49fcbac903e6</testCaseGuid>
+   <variable>
+      <defaultValue>'baophamthien241098@gmail.com'</defaultValue>
+      <description></description>
+      <id>55a6d4ad-62ca-40a1-8ddb-30a8017d4050</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description></description>
+      <id>13d1c761-4306-4d06-b725-29f3d8ce98a0</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

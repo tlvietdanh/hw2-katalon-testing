@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Edit_FullName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>187452f9-9adf-478b-a992-5fc8188e739d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>431d3521-130f-4cb1-b7df-85bf46b5b05c</id>
+      <masked>false</masked>
+      <name>var_firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>13298ec1-9354-49d1-820d-d04a61b0b5b7</id>
+      <masked>false</masked>
+      <name>var_lastname</name>
+   </variable>
+</TestCaseEntity>

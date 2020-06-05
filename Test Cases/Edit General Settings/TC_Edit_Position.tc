@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Edit_Position</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1160c7f2-10a2-467d-b096-fb01975aea76</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b8459e4-538a-427e-a492-e51bf4f3ff24</id>
+      <masked>false</masked>
+      <name>var_position</name>
+   </variable>
+</TestCaseEntity>

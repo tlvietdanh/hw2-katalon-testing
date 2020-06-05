@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign Up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a45e609b-318c-4d83-b207-58a5e4f4b359</testCaseGuid>
+   <variable>
+      <defaultValue>'testdata2'</defaultValue>
+      <description></description>
+      <id>3928ac67-889c-4c10-b645-6b307bc9ce4b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'testdata@gmail.com'</defaultValue>
+      <description></description>
+      <id>ff0a86bb-1928-4ff6-a3bd-3c49af326413</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'thienbao123'</defaultValue>
+      <description></description>
+      <id>340d76d9-e05c-4e25-a0f4-b403a8344a0c</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>
