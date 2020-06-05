@@ -66,7 +66,9 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/Rename_channel/s
 
 	WebUI.click(findTestObject('Object Repository/Rename_channel/span_Town Square'));
 	
-	WebUI.click(findTestObject('Object Repository/Rename_channel/span_View Info'));
+	WebUI.click(findTestObject('Object Repository/Rename_channel/Page_Town Square - test2 Mattermost/span_View Members'));
+	
+	WebUI.click(findTestObject('Object Repository/Rename_channel/Page_Town Square - test2 Mattermost/button_Close'));
 	
 }
 
