@@ -18,12 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 
 @com.kms.katalon.core.annotation.SetUp
 def Setup() {
-	WebUI.openBrowser('https://hw02-mattermast-webapp-master.herokuapp.com/signup_email')
-	
+	WebUI.openBrowser('http://192.168.1.10:8065/signup_email')
 }
 
-'Call signup functions'
-
+'Call login functions'
 WebUI.callTestCase(findTestCase('Test Cases/Signup/signup_function'), [('var_email') : var_email ,('var_name') : var_name, ('var_password') : var_password], FailureHandling.STOP_ON_FAILURE)
 
 

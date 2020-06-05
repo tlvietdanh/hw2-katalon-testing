@@ -18,7 +18,7 @@ import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonBuilder
 
-
+WebUI.callTestCase(findTestCase("Test Cases/TC_API/Login_SaveCookie"),null)
 def request = findTestObject('API/GetStatusPlugin', [('url') : GlobalVariable.BaseUrl, ('Cookie') : GlobalVariable.CloudCookies])
 def json = new JsonBuilder()
 def root = json current_password: current_password, new_password: new_password

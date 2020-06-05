@@ -15,8 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-println(GlobalVariable.CloudCookies)
 
+WebUI.callTestCase(findTestCase("Test Cases/TC_API/Login_SaveCookie"),null)
 response = WS.sendRequest(findTestObject('API/SystemLog', [('Cookie') : GlobalVariable.CloudCookies, ('url') : GlobalVariable.BaseUrl]))
 
 WS.verifyResponseStatusCode(response, 200)

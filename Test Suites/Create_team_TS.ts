@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Create_team_TS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>68a20a33-6da1-437d-847a-360c0e02f72e</testSuiteGuid>
+   <testCaseLink>
+      <guid>69941e09-d62c-447b-b52e-b2b912562b5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create_team</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>51f27db9-98fc-4611-bec3-b8fd0090bce4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Create_team_data/Data_Create_Team</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>51f27db9-98fc-4611-bec3-b8fd0090bce4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>team_name</value>
+         <variableId>5a344e4e-558c-4b70-9bd7-de35f4665242</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10a6acdb-9c5e-490d-87f0-0f39fcf00fc5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
