@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>d668ba17-1c5f-4509-8c97-e03b2155370f</dataFileGUID>
-   <dataSourceUrl>D:\katalon\hw2-katalon-testing\CSV_DATA\create_team.csv</dataSourceUrl>
+   <dataSourceUrl>C:\Users\baoph\Downloads\create_team.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

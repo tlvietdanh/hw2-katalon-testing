@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://192.168.1.10:8065'</initValue>
+      <initValue>'http://192.168.56.101:8065'</initValue>
       <name>BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
