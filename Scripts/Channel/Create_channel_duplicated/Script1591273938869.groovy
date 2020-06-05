@@ -27,6 +27,8 @@ WebUI.callTestCase(findTestCase('Test Cases/Login/login_function'), [('var_user'
 
 // create a team if not existed
 
+WebUI.verifyEqual(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'), 1), true)
+
 // WebUI.navigateToUrl('https://hw02-mattermast-webapp-master.herokuapp.com/asdasd/channels/town-square')
 WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/btn_create_channel_local'))
 

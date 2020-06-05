@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.verifyEqual(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Mattermost_Signup/input_email'), 1), true)
+
+
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost_Signup/input_email'), var_email)
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost_Signup/input_name'), var_name)

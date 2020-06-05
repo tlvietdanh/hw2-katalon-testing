@@ -22,6 +22,9 @@ WebUI.callTestCase(findTestCase('Test Cases/Login/login_function'), [('var_user'
 
 // create a team if not existed
 // WebUI.navigateToUrl('https://hw02-mattermast-webapp-master.herokuapp.com/asdasd/channels/town-square')
+
+WebUI.verifyEqual(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create_New_Channel_Local/txt_error_duplicate'), 1), true)
+
 WebUI.click(findTestObject('Object Repository/Page_Create_New_Channel_Local/btn_create_channel_local'))
 
 'Checking create private channel or public channel'
